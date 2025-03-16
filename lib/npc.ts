@@ -278,7 +278,7 @@ using System.Threading.Tasks;
 public class ${className}Controller : MonoBehaviour
 {
     // 自动填充您的NPC ID
-    private const string CHARACTER_ID = "${npc.id}"; 
+    private const string CHARACTER_ID = "${npc.id}";
     
     // 引用您的GameAI Manager组件
     [SerializeField] private GameAIManager gameAIManager;

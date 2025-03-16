@@ -1,0 +1,206 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 - 古代羊皮纸效果 -->
+  <rect x="0" y="0" width="800" height="600" fill="#f2e8d5"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="serif" font-size="24" fill="#614b36" text-anchor="middle" font-weight="bold">
+    符文与星座对比分析
+  </text>
+  
+  <!-- 左侧 - 符文部分 -->
+  <g transform="translate(200, 300)">
+    <!-- 符文石碑外框 -->
+    <rect x="-150" y="-200" width="300" height="400" rx="5" fill="#c9b28f" stroke="#614b36" stroke-width="2"/>
+    
+    <!-- 符文石碑内部纹理 -->
+    <rect x="-140" y="-190" width="280" height="380" fill="#d7c4a9" stroke="none"/>
+    
+    <!-- 符文图案 - 圆形排列的符号 -->
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#614b36" stroke-width="1" stroke-dasharray="3,3"/>
+    
+    <!-- 符文内部小符号 -->
+    <g fill="none" stroke="#3d2314" stroke-width="1.5">
+      <!-- 北方符文 -->
+      <path d="M0,-90 L10,-70 L-10,-70 Z" />
+      <path d="M0,-85 L0,-75" />
+      
+      <!-- 东北方符文 -->
+      <path d="M65,-65 C60,-60 60,-55 65,-50 C70,-55 70,-60 65,-65 Z" />
+      <circle cx="65" cy="-57.5" r="3" />
+      
+      <!-- 东方符文 -->
+      <path d="M90,0 L70,-10 L70,10 Z" />
+      <path d="M75,0 L85,0" />
+      
+      <!-- 东南方符文 -->
+      <path d="M65,65 L55,55 L75,55 Z" />
+      <path d="M65,55 L65,65" />
+      
+      <!-- 南方符文 -->
+      <circle cx="0" cy="90" r="10" />
+      <path d="M-5,90 L5,90" />
+      <path d="M0,85 L0,95" />
+      
+      <!-- 西南方符文 -->
+      <path d="M-65,65 L-55,55 L-75,55 Z" />
+      <circle cx="-65" cy="60" r="3" />
+      
+      <!-- 西方符文 -->
+      <path d="M-90,0 L-70,-10 L-70,10 Z" />
+      <path d="M-85,0 L-75,0" />
+      
+      <!-- 西北方符文 -->
+      <rect x="-75" y="-65" width="20" height="15" />
+      <path d="M-65,-65 L-65,-50" />
+    </g>
+    
+    <!-- 连接线 -->
+    <g stroke="#614b36" stroke-width="1">
+      <path d="M0,-90 L65,-65" />
+      <path d="M65,-65 L90,0" />
+      <path d="M90,0 L65,65" />
+      <path d="M65,65 L0,90" />
+      <path d="M0,90 L-65,65" />
+      <path d="M-65,65 L-90,0" />
+      <path d="M-90,0 L-65,-65" />
+      <path d="M-65,-65 L0,-90" />
+    </g>
+    
+    <!-- 拓片效果 -->
+    <g opacity="0.1">
+      <rect x="-140" y="-190" width="280" height="380" fill="#000"/>
+      <!-- 随机点 -->
+      <circle cx="-100" cy="-150" r="2" fill="#000"/>
+      <circle cx="80" cy="-130" r="3" fill="#000"/>
+      <circle cx="110" cy="50" r="2" fill="#000"/>
+      <circle cx="-50" cy="150" r="4" fill="#000"/>
+      <circle cx="30" cy="120" r="3" fill="#000"/>
+      <circle cx="-120" cy="10" r="2" fill="#000"/>
+    </g>
+    
+    <text x="0" y="-220" font-family="serif" font-size="18" fill="#614b36" text-anchor="middle" font-weight="bold">
+      古代符文石碑
+    </text>
+  </g>
+  
+  <!-- 右侧 - 星图部分 -->
+  <g transform="translate(600, 300)">
+    <!-- 星图背景 -->
+    <circle cx="0" cy="0" r="150" fill="#1a1a2e" stroke="#333" stroke-width="2"/>
+    
+    <!-- 星座网格 -->
+    <g stroke="#444455" stroke-width="0.5" opacity="0.7">
+      <!-- 经度线 -->
+      <circle cx="0" cy="0" r="30" fill="none"/>
+      <circle cx="0" cy="0" r="60" fill="none"/>
+      <circle cx="0" cy="0" r="90" fill="none"/>
+      <circle cx="0" cy="0" r="120" fill="none"/>
+      
+      <!-- 纬度线 -->
+      <line x1="-150" y1="0" x2="150" y2="0" />
+      <line x1="0" y1="-150" x2="0" y2="150" />
+      <line x1="-106" y1="-106" x2="106" y2="106" />
+      <line x1="-106" y1="106" x2="106" y2="-106" />
+    </g>
+    
+    <!-- 星星 - 与符文在相同位置 -->
+    <g>
+      <!-- 北方星 -->
+      <circle cx="0" cy="-90" r="3" fill="#f9f3e3"/>
+      <circle cx="0" cy="-90" r="5" fill="#f9f3e3" opacity="0.3"/>
+      
+      <!-- 东北方星 -->
+      <circle cx="65" cy="-65" r="2" fill="#f9f3e3"/>
+      <circle cx="65" cy="-65" r="4" fill="#f9f3e3" opacity="0.3"/>
+      
+      <!-- 东方星 -->
+      <circle cx="90" cy="0" r="3.5" fill="#f9f3e3"/>
+      <circle cx="90" cy="0" r="6" fill="#f9f3e3" opacity="0.3"/>
+      
+      <!-- 东南方星 -->
+      <circle cx="65" cy="65" r="2.5" fill="#f9f3e3"/>
+      <circle cx="65" cy="65" r="4" fill="#f9f3e3" opacity="0.3"/>
+      
+      <!-- 南方星 -->
+      <circle cx="0" cy="90" r="3" fill="#f9f3e3"/>
+      <circle cx="0" cy="90" r="5" fill="#f9f3e3" opacity="0.3"/>
+      
+      <!-- 西南方星 -->
+      <circle cx="-65" cy="65" r="2" fill="#f9f3e3"/>
+      <circle cx="-65" cy="65" r="4" fill="#f9f3e3" opacity="0.3"/>
+      
+      <!-- 西方星 -->
+      <circle cx="-90" cy="0" r="3" fill="#f9f3e3"/>
+      <circle cx="-90" cy="0" r="5" fill="#f9f3e3" opacity="0.3"/>
+      
+      <!-- 西北方星 -->
+      <circle cx="-65" cy="-65" r="2.5" fill="#f9f3e3"/>
+      <circle cx="-65" cy="-65" r="4" fill="#f9f3e3" opacity="0.3"/>
+      
+      <!-- 中央星 -->
+      <circle cx="0" cy="0" r="4" fill="#f9f3e3"/>
+      <circle cx="0" cy="0" r="7" fill="#f9f3e3" opacity="0.3"/>
+    </g>
+    
+    <!-- 星座连线 - 与符文图案相同的图案 -->
+    <g stroke="#8f8fb3" stroke-width="1" opacity="0.8">
+      <path d="M0,-90 L65,-65" />
+      <path d="M65,-65 L90,0" />
+      <path d="M90,0 L65,65" />
+      <path d="M65,65 L0,90" />
+      <path d="M0,90 L-65,65" />
+      <path d="M-65,65 L-90,0" />
+      <path d="M-90,0 L-65,-65" />
+      <path d="M-65,-65 L0,-90" />
+      
+      <!-- 额外连接中心星 -->
+      <path d="M0,0 L0,-90" stroke-dasharray="3,3"/>
+      <path d="M0,0 L90,0" stroke-dasharray="3,3"/>
+      <path d="M0,0 L0,90" stroke-dasharray="3,3"/>
+      <path d="M0,0 L-90,0" stroke-dasharray="3,3"/>
+    </g>
+    
+    <!-- 其他小星星 -->
+    <g fill="#f9f3e3">
+      <circle cx="-120" cy="-30" r="1"/>
+      <circle cx="-100" cy="50" r="1.5"/>
+      <circle cx="-40" cy="110" r="1"/>
+      <circle cx="30" cy="-120" r="1.2"/>
+      <circle cx="80" cy="-110" r="1"/>
+      <circle cx="110" cy="40" r="1.3"/>
+      <circle cx="60" cy="110" r="0.8"/>
+      <circle cx="-30" cy="-110" r="1.1"/>
+      <!-- 更多随机星星 -->
+      <circle cx="-135" cy="-80" r="0.7"/>
+      <circle cx="-115" cy="85" r="0.9"/>
+      <circle cx="-60" cy="125" r="0.8"/>
+      <circle cx="40" cy="-130" r="0.9"/>
+      <circle cx="95" cy="-90" r="0.7"/>
+      <circle cx="130" cy="60" r="1"/>
+      <circle cx="75" cy="120" r="0.8"/>
+      <circle cx="-50" cy="-125" r="0.7"/>
+    </g>
+    
+    <text x="0" y="-180" font-family="serif" font-size="18" fill="#f9f3e3" text-anchor="middle" font-weight="bold">
+      古代星图
+    </text>
+  </g>
+  
+  <!-- 中央连接线和说明 -->
+  <path d="M360,300 L440,300" stroke="#614b36" stroke-width="2" stroke-dasharray="5,5"/>
+  <circle cx="400" cy="300" r="20" fill="#f2e8d5" stroke="#614b36" stroke-width="2"/>
+  <text x="400" cy="305" font-family="serif" font-size="16" fill="#614b36" text-anchor="middle">
+    对应
+  </text>
+  
+  <!-- 底部注释 -->
+  <g transform="translate(400, 520)">
+    <rect x="-300" y="-30" width="600" height="60" rx="5" fill="#e8d7b8" stroke="#614b36" stroke-width="1"/>
+    <text x="0" y="-5" font-family="serif" font-size="14" fill="#614b36" text-anchor="middle">
+      考古学者注: 石碑上的符文图案与北半球夏季星空完全吻合,
+    </text>
+    <text x="0" y="15" font-family="serif" font-size="14" fill="#614b36" text-anchor="middle">
+      证明该文明使用星象定位来记录时间和季节变化。
+    </text>
+  </g>
+</svg> 

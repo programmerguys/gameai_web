@@ -68,7 +68,7 @@ export function ModelSelector({ currentModelId, onModelChange }: ModelSelectorPr
   const [temperature, setTemperature] = useState(0.7);
   const [maxTokens, setMaxTokens] = useState(MODEL_FEATURES[currentModelId as keyof typeof MODEL_FEATURES]?.maxTokens || 16000);
   const [streamingEnabled, setStreamingEnabled] = useState(true);
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(true);
   
   // 当前选择的模型信息
   const currentModel = MODEL_FEATURES[modelId as keyof typeof MODEL_FEATURES];

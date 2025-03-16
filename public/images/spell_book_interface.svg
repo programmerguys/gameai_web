@@ -1,0 +1,190 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 - 法术书基本结构 -->
+  <rect x="50" y="50" width="700" height="500" rx="10" fill="#5e3a1c" stroke="#3d2314" stroke-width="5"/>
+  <rect x="60" y="60" width="680" height="480" rx="5" fill="#8b5a2b" stroke="#3d2314" stroke-width="2"/>
+  
+  <!-- 书页区域 -->
+  <rect x="75" y="75" width="650" height="450" fill="#e8d7b8"/>
+  
+  <!-- 左侧页面 - 基础信息 -->
+  <rect x="85" y="85" width="315" height="430" fill="#f5ead6" stroke="#b38b6d" stroke-width="1"/>
+  
+  <!-- 右侧页面 - 法术列表 -->
+  <rect x="400" y="85" width="315" height="430" fill="#f5ead6" stroke="#b38b6d" stroke-width="1"/>
+  
+  <!-- 书脊 -->
+  <rect x="398" y="75" width="4" height="450" fill="#5e3a1c"/>
+  <line x1="392" y1="75" x2="392" y2="525" stroke="#3d2314" stroke-width="0.5" stroke-dasharray="3,3"/>
+  <line x1="408" y1="75" x2="408" y2="525" stroke="#3d2314" stroke-width="0.5" stroke-dasharray="3,3"/>
+  
+  <!-- 法术书标题 -->
+  <text x="242.5" y="115" font-family="serif" font-size="24" fill="#3d2314" text-anchor="middle" font-weight="bold">
+    初学者法术指南
+  </text>
+  
+  <!-- 左侧页面内容 -->
+  <g>
+    <!-- 副标题 -->
+    <text x="242.5" y="150" font-family="serif" font-size="16" fill="#5e3a1c" text-anchor="middle" font-style="italic">
+      第一卷：基础元素法术
+    </text>
+    
+    <!-- 分割线 -->
+    <line x1="100" y1="165" x2="385" y2="165" stroke="#b38b6d" stroke-width="1"/>
+    
+    <!-- 介绍段落 -->
+    <text x="100" y="190" font-family="serif" font-size="14" fill="#3d2314">
+      <tspan x="100" dy="0">元素法术是所有魔法基础。掌握这些</tspan>
+      <tspan x="100" dy="20">基本法术后，魔法师才能尝试更复杂</tspan>
+      <tspan x="100" dy="20">的高阶魔法。初学者应从掌握单一元</tspan>
+      <tspan x="100" dy="20">素法术开始，逐步学习元素之间的组</tspan>
+      <tspan x="100" dy="20">合与平衡。</tspan>
+    </text>
+    
+    <!-- 法术使用提示 -->
+    <text x="100" y="290" font-family="serif" font-size="16" fill="#5e3a1c" font-weight="bold">
+      法术使用提示:
+    </text>
+    <text x="100" y="315" font-family="serif" font-size="14" fill="#3d2314">
+      <tspan x="100" dy="0">1. 施法前保持冥想，集中精神力</tspan>
+      <tspan x="100" dy="20">2. 正确发音咒语，手势要准确</tspan>
+      <tspan x="100" dy="20">3. 控制魔力输出，避免法术反噬</tspan>
+      <tspan x="100" dy="20">4. 初学者应在导师监督下练习</tspan>
+    </text>
+    
+    <!-- 法术分类图解 -->
+    <text x="100" y="400" font-family="serif" font-size="16" fill="#5e3a1c" font-weight="bold">
+      元素关系:
+    </text>
+    
+    <!-- 简单元素关系图 -->
+    <circle cx="242.5" cy="445" r="60" fill="none" stroke="#3d2314" stroke-width="1"/>
+    <line x1="242.5" y1="385" x2="242.5" y2="505" stroke="#3d2314" stroke-width="1"/>
+    <line x1="182.5" y1="445" x2="302.5" y2="445" stroke="#3d2314" stroke-width="1"/>
+    
+    <!-- 元素标签 -->
+    <text x="242.5" y="425" font-family="serif" font-size="12" fill="#c23616" text-anchor="middle">火</text>
+    <text x="222.5" y="445" font-family="serif" font-size="12" fill="#0097e6" text-anchor="end">水</text>
+    <text x="242.5" y="465" font-family="serif" font-size="12" fill="#44bd32" text-anchor="middle">地</text>
+    <text x="262.5" y="445" font-family="serif" font-size="12" fill="#7f8fa6" text-anchor="start">风</text>
+  </g>
+  
+  <!-- 右侧页面内容 -->
+  <g>
+    <!-- 法术分类标题 -->
+    <text x="415" y="115" font-family="serif" font-size="18" fill="#3d2314" font-weight="bold">
+      法术列表
+    </text>
+    
+    <!-- 分割线 -->
+    <line x1="415" y1="125" x2="700" y2="125" stroke="#b38b6d" stroke-width="1"/>
+    
+    <!-- 法术分类标签 -->
+    <g>
+      <rect x="415" y="135" width="60" height="20" rx="10" fill="#c23616" opacity="0.7"/>
+      <text x="445" y="150" font-family="sans-serif" font-size="12" fill="white" text-anchor="middle">火系</text>
+      
+      <rect x="480" y="135" width="60" height="20" rx="10" fill="#0097e6" opacity="0.7"/>
+      <text x="510" y="150" font-family="sans-serif" font-size="12" fill="white" text-anchor="middle">水系</text>
+      
+      <rect x="545" y="135" width="60" height="20" rx="10" fill="#7f8fa6" opacity="0.7"/>
+      <text x="575" y="150" font-family="sans-serif" font-size="12" fill="white" text-anchor="middle">风系</text>
+      
+      <rect x="610" y="135" width="60" height="20" rx="10" fill="#44bd32" opacity="0.7"/>
+      <text x="640" y="150" font-family="sans-serif" font-size="12" fill="white" text-anchor="middle">地系</text>
+      
+      <rect x="455" y="160" width="120" height="20" rx="10" fill="#8e44ad" opacity="0.7"/>
+      <text x="515" y="175" font-family="sans-serif" font-size="12" fill="white" text-anchor="middle">元素组合</text>
+    </g>
+    
+    <!-- 法术列表 - 火系法术 -->
+    <text x="415" y="195" font-family="serif" font-size="16" fill="#c23616" font-weight="bold">
+      火系法术:
+    </text>
+    
+    <!-- 火花术 -->
+    <g>
+      <text x="425" y="220" font-family="serif" font-size="14" fill="#3d2314" font-weight="bold">
+        火花术 (初级)
+      </text>
+      <text x="425" y="240" font-family="serif" font-size="12" fill="#3d2314">
+        <tspan x="425" dy="0">效果: 在指尖产生小火花，可点燃易</tspan>
+        <tspan x="425" dy="16">燃物。适合初学者练习控制火元素。</tspan>
+      </text>
+      <text x="425" y="270" font-family="serif" font-size="12" fill="#3d2314">
+        <tspan x="425" dy="0">魔力消耗: ★☆☆☆☆</tspan>
+      </text>
+      <!-- 小图标 -->
+      <circle cx="670" cy="235" r="15" fill="#c23616" opacity="0.3"/>
+      <path d="M670,225 Q673,230 670,235 Q667,240 670,245 Q673,240 670,235 Q673,230 670,225" fill="#c23616" stroke="#c23616" stroke-width="1"/>
+    </g>
+    
+    <!-- 火球术 -->
+    <g>
+      <text x="425" y="300" font-family="serif" font-size="14" fill="#3d2314" font-weight="bold">
+        火球术 (中级)
+      </text>
+      <text x="425" y="320" font-family="serif" font-size="12" fill="#3d2314">
+        <tspan x="425" dy="0">效果: 凝聚元素能量形成火球，可投掷</tspan>
+        <tspan x="425" dy="16">攻击敌人。需要良好的火元素控制能力。</tspan>
+      </text>
+      <text x="425" y="350" font-family="serif" font-size="12" fill="#3d2314">
+        <tspan x="425" dy="0">魔力消耗: ★★★☆☆</tspan>
+      </text>
+      <!-- 小图标 -->
+      <circle cx="670" cy="325" r="15" fill="#c23616" opacity="0.5"/>
+      <circle cx="670" cy="325" r="10" fill="#c23616" opacity="0.8"/>
+      <circle cx="670" cy="325" r="5" fill="#ffaf40" opacity="0.8"/>
+    </g>
+    
+    <!-- 烈焰风暴 -->
+    <g>
+      <text x="425" y="380" font-family="serif" font-size="14" fill="#3d2314" font-weight="bold">
+        烈焰风暴 (高级)
+      </text>
+      <text x="425" y="400" font-family="serif" font-size="12" fill="#3d2314">
+        <tspan x="425" dy="0">效果: 召唤大范围火焰风暴，对区域内</tspan>
+        <tspan x="425" dy="16">所有目标造成持续伤害。高阶法师技能。</tspan>
+      </text>
+      <text x="425" y="430" font-family="serif" font-size="12" fill="#3d2314">
+        <tspan x="425" dy="0">魔力消耗: ★★★★★</tspan>
+      </text>
+      <!-- 小图标 -->
+      <circle cx="670" cy="415" r="20" fill="#c23616" opacity="0.4"/>
+      <path d="M655,415 Q665,405 670,415 Q675,425 685,415 Q675,405 655,415" fill="#c23616" stroke="#c23616" stroke-width="1"/>
+      <path d="M655,415 Q665,425 670,415 Q675,405 685,415 Q675,425 655,415" fill="#c23616" stroke="#c23616" stroke-width="1"/>
+    </g>
+    
+    <!-- 翻页指示 -->
+    <text x="620" y="490" font-family="serif" font-size="12" fill="#5e3a1c" text-anchor="end" font-style="italic">
+      下一页: 水系法术 →
+    </text>
+  </g>
+  
+  <!-- 装饰元素 - 魔法印记 -->
+  <g>
+    <!-- 左上角装饰 -->
+    <circle cx="85" cy="85" r="15" fill="none" stroke="#b38b6d" stroke-width="1"/>
+    <path d="M75,85 L95,85 M85,75 L85,95" stroke="#b38b6d" stroke-width="1"/>
+    
+    <!-- 右上角装饰 -->
+    <circle cx="715" cy="85" r="15" fill="none" stroke="#b38b6d" stroke-width="1"/>
+    <path d="M705,85 L725,85 M715,75 L715,95" stroke="#b38b6d" stroke-width="1"/>
+    
+    <!-- 左下角装饰 -->
+    <circle cx="85" cy="515" r="15" fill="none" stroke="#b38b6d" stroke-width="1"/>
+    <path d="M75,515 L95,515 M85,505 L85,525" stroke="#b38b6d" stroke-width="1"/>
+    
+    <!-- 右下角装饰 -->
+    <circle cx="715" cy="515" r="15" fill="none" stroke="#b38b6d" stroke-width="1"/>
+    <path d="M705,515 L725,515 M715,505 L715,525" stroke="#b38b6d" stroke-width="1"/>
+  </g>
+  
+  <!-- 页码 -->
+  <text x="242.5" y="500" font-family="serif" font-size="14" fill="#5e3a1c" text-anchor="middle">
+    - 8 -
+  </text>
+  <text x="557.5" y="500" font-family="serif" font-size="14" fill="#5e3a1c" text-anchor="middle">
+    - 9 -
+  </text>
+</svg> 

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#F8F8F8"/>
+  
+  <!-- 森林地面背景 -->
+  <rect y="450" width="800" height="150" fill="#5A3A22"/>
+  
+  <!-- 森林阴影和光线 -->
+  <path d="M0 450C150 430 250 460 400 440C550 420 650 450 800 430L800 450L0 450Z" fill="#3F6C45"/>
+  <path d="M0 0C100 50 200 20 300 70C400 30 500 60 600 40C700 70 800 30 800 0L0 0Z" fill="#2D3A3A" fill-opacity="0.2"/>
+  
+  <!-- 落叶和小植物 -->
+  <circle cx="150" cy="470" r="8" fill="#8B5A2B"/>
+  <circle cx="650" cy="460" r="6" fill="#8B5A2B"/>
+  <path d="M210 450C210 450 220 430 240 450" stroke="#558B6E" stroke-width="2"/>
+  <path d="M510 450C510 450 520 430 540 450" stroke="#558B6E" stroke-width="2"/>
+  <path d="M610 450C610 450 620 430 640 450" stroke="#558B6E" stroke-width="2"/>
+  
+  <!-- 蘑菇精灵身体基础 - 蘑菇形态 -->
+  <!-- 蘑菇茎作为身体 -->
+  <path d="M400 450C400 450 390 400 400 350" stroke="#E5D7BE" stroke-width="40" stroke-linecap="round"/>
+  
+  <!-- 蘑菇帽作为头部 -->
+  <ellipse cx="400" cy="320" rx="70" ry="40" fill="#964B00"/>
+  
+  <!-- 小蘑菇装饰 -->
+  <path d="M450 430C450 430 455 410 450 395" stroke="#E5D7BE" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="450" cy="385" rx="15" ry="8" fill="#E27D60"/>
+  
+  <path d="M350 430C350 430 345 410 350 395" stroke="#E5D7BE" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="350" cy="385" rx="15" ry="8" fill="#85CDCA"/>
+  
+  <!-- 精灵特征：脸部 -->
+  <!-- 眼睛 -->
+  <circle cx="380" cy="320" r="8" fill="#FFFFFF"/>
+  <circle cx="380" cy="320" r="4" fill="#000000"/>
+  <circle cx="420" cy="320" r="8" fill="#FFFFFF"/>
+  <circle cx="420" cy="320" r="4" fill="#000000"/>
+  
+  <!-- 发光的眼睛效果 -->
+  <circle cx="380" cy="320" r="12" fill="#41B3A3" fill-opacity="0.3"/>
+  <circle cx="420" cy="320" r="12" fill="#41B3A3" fill-opacity="0.3"/>
+  
+  <!-- 嘴巴 -->
+  <path d="M385 340C385 340 400 345 415 340" stroke="#000000" stroke-width="2"/>
+  
+  <!-- 精灵手臂 -->
+  <path d="M370 370C370 370 340 360 320 380" stroke="#E5D7BE" stroke-width="6" stroke-linecap="round"/>
+  <path d="M430 370C430 370 460 360 480 380" stroke="#E5D7BE" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- 精灵魔法能量 -->
+  <circle cx="320" cy="380" r="10" fill="#41B3A3"/>
+  <circle cx="320" cy="380" r="15" fill="#41B3A3" fill-opacity="0.3"/>
+  <circle cx="480" cy="380" r="10" fill="#41B3A3"/>
+  <circle cx="480" cy="380" r="15" fill="#41B3A3" fill-opacity="0.3"/>
+  
+  <!-- 光环效果 -->
+  <circle cx="400" cy="350" r="120" fill="#41B3A3" fill-opacity="0.1"/>
+  <circle cx="400" cy="350" r="80" fill="#41B3A3" fill-opacity="0.15"/>
+  
+  <!-- 蘑菇帽斑点 -->
+  <circle cx="370" cy="310" r="8" fill="#FFFFFF" fill-opacity="0.5"/>
+  <circle cx="410" cy="300" r="6" fill="#FFFFFF" fill-opacity="0.5"/>
+  <circle cx="440" cy="320" r="7" fill="#FFFFFF" fill-opacity="0.5"/>
+  <circle cx="390" cy="330" r="5" fill="#FFFFFF" fill-opacity="0.5"/>
+  
+  <!-- 蓝盖蘑菇保护 -->
+  <path d="M300 450C300 450 295 430 300 410" stroke="#EAEAEA" stroke-width="15" stroke-linecap="round"/>
+  <ellipse cx="300" cy="400" rx="20" ry="12" fill="#1E56A0"/>
+  <circle cx="300" cy="400" r="25" fill="#4A85D3" fill-opacity="0.2"/>
+  
+  <!-- 精灵保护姿态 -->
+  <path d="M320 380C280 350 280 410 300 400" stroke="#41B3A3" stroke-width="2" stroke-dasharray="4 2"/>
+  
+  <!-- 描述性文本 -->
+  <text x="400" y="530" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">蘑菇精灵</text>
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="18" fill="#CCCCCC" text-anchor="middle">保护蓝盖蘑菇的神秘生物，对火焰特别脆弱</text>
+</svg> 
