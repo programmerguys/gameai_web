@@ -120,6 +120,58 @@ export function DashboardSidebar() {
 
         <div className="mt-6 mb-2 px-3">
           <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+            游戏创作
+          </p>
+        </div>
+
+        <NavItem
+          href="/dashboard/services/idea-generator"
+          icon={
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 7v5l2.5 1.5" />
+              <path d="M4.93 19.07a10 10 0 0 1 0-14.14" />
+            </svg>
+          }
+          label="创意点子生成"
+        />
+
+        <NavItem
+          href="/dashboard/services/story-generator"
+          icon={
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M14 9.5V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2.5" />
+              <path d="M10 10h7l3 -3l-3 -3h-7" />
+              <path d="M17 14h-7l-3 3l3 3h7" />
+            </svg>
+          }
+          label="故事情节生成器"
+        />
+
+        <div className="mt-6 mb-2 px-3">
+          <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
             AI服务
           </p>
         </div>
@@ -172,29 +224,6 @@ export function DashboardSidebar() {
             </svg>
           }
           label="3D模型生成"
-        />
-
-        <NavItem
-          href="/dashboard/services/idea-generator"
-          icon={
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              aria-hidden="true"
-            >
-              <circle cx="12" cy="12" r="10" />
-              <path d="M12 7v5l2.5 1.5" />
-              <path d="M4.93 19.07a10 10 0 0 1 0-14.14" />
-            </svg>
-          }
-          label="创意点子生成"
         />
 
         <NavItem
