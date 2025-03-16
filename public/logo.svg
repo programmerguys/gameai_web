@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M24.5 6C14.835 6 7 13.835 7 23.5C7 33.165 14.835 41 24.5 41C34.165 41 42 33.165 42 23.5C42 13.835 34.165 6 24.5 6ZM24.5 35C18.15 35 13 29.85 13 23.5C13 17.15 18.15 12 24.5 12C30.85 12 36 17.15 36 23.5C36 29.85 30.85 35 24.5 35Z" fill="url(#paint0_linear)"/>
+  <path d="M24.5 18C24.5 16.343 25.843 15 27.5 15C29.157 15 30.5 16.343 30.5 18C30.5 19.657 29.157 21 27.5 21C25.843 21 24.5 19.657 24.5 18Z" fill="#4F46E5"/>
+  <path d="M18.5 29C18.5 27.343 19.843 26 21.5 26C23.157 26 24.5 27.343 24.5 29C24.5 30.657 23.157 32 21.5 32C19.843 32 18.5 30.657 18.5 29Z" fill="#4F46E5"/>
+  <path d="M30.5 29C30.5 30.657 29.157 32 27.5 32C25.843 32 24.5 30.657 24.5 29C24.5 27.343 25.843 26 27.5 26C29.157 26 30.5 27.343 30.5 29Z" fill="#4F46E5"/>
+  <path d="M21.5 15C23.157 15 24.5 16.343 24.5 18C24.5 19.657 23.157 21 21.5 21C19.843 21 18.5 19.657 18.5 18C18.5 16.343 19.843 15 21.5 15Z" fill="#4F46E5"/>
+  <path d="M24.5 18V29" stroke="#4F46E5" stroke-width="2"/>
+  <path d="M21.5 18H27.5" stroke="#4F46E5" stroke-width="2"/>
+  <path d="M21.5 29H27.5" stroke="#4F46E5" stroke-width="2"/>
+  <text x="50" y="28" font-family="Arial" font-weight="bold" font-size="16" fill="#4F46E5">GameAI</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="7" y1="6" x2="42" y2="41" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+</svg> 
